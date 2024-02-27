@@ -1,0 +1,27 @@
+@media (max-width: 375px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-head {
+    display: none;
+  }
+  .main-nav {
+    display: none;
+  }
+  .side {
+    display: none;
+  }
+  .ad {
+    display: none;
+  }
+  .main-footer {
+    display: none;
+  }
+}
